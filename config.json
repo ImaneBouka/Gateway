@@ -1,0 +1,10 @@
+{
+  "mqServer": "localhost",
+  "sharedDrive":"f:",
+  "apiServer":"localhost",
+  "apiPort":3001,
+  "agentPort":3000,
+  "notificationInterval":1000,
+  "highWaterMark":80,
+  "mode": "gateway"
+}
