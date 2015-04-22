@@ -1,0 +1,31 @@
+########################
+# node_modules
+########################
+node_modules
+npm-debug.log
+
+########################
+# misc / editors
+########################
+*~
+*#
+.DS_STORE
+.netbeans
+nbproject
+.idea
+*.iml
+
+########################
+# temporary folder
+########################
+.tmp
+
+########################
+# distribution folder
+########################
+distrib
+
+########################
+# Report folder
+########################
+reports
