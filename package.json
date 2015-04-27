@@ -1,5 +1,5 @@
 {
-  "name": "application-gateway",
+  "name": "agent-gateway",
   "version": "0.0.1",
   "dependencies": {
     "amqplib": "0.1.3",
