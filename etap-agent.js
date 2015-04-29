@@ -8,7 +8,7 @@ process.title = global.applicationName + "-agent - " + "[" + global.agentHost +"
 
 var g_brokerConnectorNS = require("./lib/gateway-broker-connector");
 var shutdown = require("./lib/utils/shutdown");
-var restAPI = require("./lib/rest_api/gateway-rest-api.js");
+var restAPI = require("./lib/Rest/gateway-rest-api.js");
 
 /**
  * Default configuration
@@ -20,7 +20,7 @@ global.sharedDrive = global.sharedDrive || "f:";
 /**
  * Connect to broker
  */
-var g_brokerConnector = new g_brokerConnectorNS.BrokerConnector();
+var g_brokerConnector = new g_brokerConnectorNS.GatewayBrokerConnector();
 restAPI.start(g_brokerConnector).then(function startBroker() {
     /**
      * Load and start the rest-api
