@@ -6,5 +6,6 @@
   "agentPort":3000,
   "notificationInterval":1000,
   "highWaterMark":80,
-  "mode": "gateway"
+  "mode": "gateway",
+  "cloud":"azure"
 }
